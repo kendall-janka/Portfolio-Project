@@ -49,13 +49,13 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 18px 30px;
+  padding: 16px 18px;
   gap: 10px;
 
   position: absolute;
   width: 16%;
 
-  height: 53px;
+  height: 45px;
   left: 42%;
   top: 400px;
   border-radius: 50px;
