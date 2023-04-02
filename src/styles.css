@@ -13,6 +13,9 @@ body {
   color: var(--default-font-color);
   background-color: var(--default-background-color);
 }
+.navbar {
+  width: 100%;
+}
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -40,7 +43,7 @@ p {
   text-align: center;
   line-height: 30px;
 }
-button {
+.learn-more {
   font-family: var(--link-font);
   font-size: 14px;
   line-height: 17px;
@@ -52,15 +55,30 @@ button {
   padding: 16px 18px;
   gap: 10px;
   margin-top: 50px;
-
-  position: absolute;
   width: 16%;
-
   height: 40px;
-  left: 42%;
-  top: 400px;
   border-radius: 50px;
 }
 .collage {
   border: 20px solid black;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .hero {
+    background-image: none;
+    background-color: black;
+  }
+  .media-col {
+    margin: 20px auto;
+  }
+  .learn-more {
+    font-size: 10px;
+    height: 30px;
+    width: 30%;
+    align-items: center;
+  }
 }
