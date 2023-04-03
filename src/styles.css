@@ -81,4 +81,16 @@ p {
     width: 30%;
     align-items: center;
   }
+  .collage {
+    height: auto;
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
 }
