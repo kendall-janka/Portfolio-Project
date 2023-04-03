@@ -62,6 +62,8 @@ p {
 }
 .collage {
   border: 20px solid black;
+  height: 280px;
+  width: auto;
 }
 .buttonContainer {
   display: flex;
