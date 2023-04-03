@@ -45,7 +45,7 @@ p {
 }
 .learn-more {
   font-family: var(--link-font);
-  color: var(--background-font-color);
+  color: black;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
