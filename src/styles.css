@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
   font-weight: bold;
-  font-size: 22;
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
   line-height: 28px;
@@ -106,6 +106,22 @@ h3 {
   width: 200px;
   height: 53px;
   border-radius: 50px;
+}
+.title h1 {
+  font-family: var(--default-font-family);
+  font-size: 72px;
+  text-align: left;
+  line-height: 84px;
+  text-transform: uppercase;
+}
+.cv-greyson h2 {
+  text-transform: uppercase;
+  color: var(--accent-color);
+  font-family: var(--default-font-family);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: left;
 }
 
 @media (max-width: 900px) {
