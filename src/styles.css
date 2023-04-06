@@ -67,13 +67,22 @@ p {
   justify-content: center;
   align-items: center;
 }
-h3 {
+
+.contactheader{
+
   text-transform: uppercase;
   color: var(--accent-color);
   font-family: var(--default-font-family);
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 21px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+}
+a:link{
+  color:#ffffff;
+  
 }
 
 .about h1 {
