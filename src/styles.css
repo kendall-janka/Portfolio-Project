@@ -135,6 +135,10 @@ a:link{
 .cv-greyson p {
   line-height: 30px;
 }
+.nav-item{
+  padding-left: 30px;
+  padding-right:30px;
+}
 
 @media (max-width: 900px) {
   .hero {
