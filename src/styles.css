@@ -143,6 +143,31 @@ a:link{
   padding-top:30px;
 }
 
+.foot-name{
+  font-size: 30px;
+  font-weight: 700;
+  vertical-align: top;
+}
+
+
+footer{
+  margin-top:100px;
+  margin-bottom:10px;
+}
+
+.source{
+  font-size:12px;
+  padding-top: 10px;
+}
+.fa-brands{
+  padding-top: 12px;
+}
+#gitHub{
+  color: var(--accent-color);
+  
+}
+
+
 
 @media (max-width: 900px) {
   .hero {
@@ -199,3 +224,11 @@ a:link{
   font-size:20px;
   line-height:24px;
 }
+ .foot-name{
+  text-align:center;
+  font-size:14px;
+ }
+ .source{
+  text-align:center;
+
+ }
