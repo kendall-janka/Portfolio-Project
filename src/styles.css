@@ -139,6 +139,10 @@ a:link{
   padding-left: 30px;
   padding-right:30px;
 }
+.contact{
+  padding-top:30px;
+}
+
 
 @media (max-width: 900px) {
   .hero {
