@@ -147,6 +147,7 @@ a:link{
   font-size: 30px;
   font-weight: 700;
   vertical-align: top;
+  
 }
 
 
@@ -158,6 +159,7 @@ footer{
 .source{
   font-size:12px;
   padding-top: 10px;
+  text-align:right;
 }
 .fa-brands{
   padding-top: 12px;
