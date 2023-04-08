@@ -147,9 +147,7 @@ a:link{
   font-size: 20px;
   font-weight: 700;
   vertical-align: top;
-  
 }
-
 
 footer{
   margin-top:100px;
@@ -160,14 +158,24 @@ footer{
   font-size:12px;
   padding-top: 7px;
   text-align:right;
+  color: var(--default-font-color);
+}
+#gitHub{
+  color:var(--default-font-color);
+}
+#gitHub:hover{
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .fa-brands{
   padding-top: 9px;
-}
-#gitHub{
-  color: var(--accent-color);
+  color: var(--default-font-color);
   
 }
+ .fa-brands:hover{
+  color: var(--accent-color);
+}
+
 
 
 
